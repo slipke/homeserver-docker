@@ -1,0 +1,8 @@
+---
+# Install the rancher server
+- hosts: rancher
+  become: yes
+  roles:
+    - { role: angstwad.docker_ubuntu, tags: ["docker"] }
+  tasks:
+    - include: tasks/rancher.yml

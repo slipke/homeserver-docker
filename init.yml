@@ -1,0 +1,5 @@
+---
+# Include all
+- include: rancher.yml
+- include: nodes.yml
+- include: register_nodes.yml

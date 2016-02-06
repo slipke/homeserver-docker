@@ -1,0 +1,5 @@
+[rancher]
+ubuntu.local ansible_user=simon
+
+[nodes]
+ubuntu.local

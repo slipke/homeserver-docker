@@ -1,0 +1,6 @@
+---
+# Register nodes at the rancher server
+- hosts: nodes
+  become: yes
+  tasks:
+    - include: tasks/register_nodes.yml

@@ -1,0 +1,6 @@
+---
+# Install docker on all nodes
+- host: nodes
+  become: yes
+  roles:
+    - { role: angstwad.docker_ubuntu, tags: ["docker"] }
